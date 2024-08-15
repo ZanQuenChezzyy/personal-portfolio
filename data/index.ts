@@ -9,8 +9,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Collaboration and Independence",
-    description: "Experience in web development teams with a strong ability to work independently.",
+    title: "Experience in web development teams with a strong ability to work independently.",
+    description: "Collaboration and Independence",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Very flexible with time zone communications",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Software and Technical Skills",
-    description: "",
+    title: "Profficient in Microsoft Office, Adobe Souit, VS Code, and various programming languages.",
+    description: "Software and Technical Skills",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -39,8 +39,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Personal Skills",
-    description: "Creative, Critical Thinking, Problem Solving, and more.",
+    title: "Creative, Critical Thinking, Problem Solving, and more.",
+    description: "Personal Skills",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -50,9 +50,9 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Adaptable and Organized",
-    description: "Interested in the latest web & software technologies.",
-    className: "md:col-span-3 md:row-span-2",
+    title: "Interested in the latest web & software technologies.",
+    description: "Adaptable and Organized",
+    className: "md:col-span-3 lg:row-span-2 ",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
