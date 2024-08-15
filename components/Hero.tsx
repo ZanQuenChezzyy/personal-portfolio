@@ -36,7 +36,7 @@ const Hero = () => {
                             className="text-center md:text-left text-[40px] md:text-5xl lg:text-6xl lg:text-wrap md:text-nowrap"
                         />
                         <p className="text-center md:text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                            I&apos;m a Editor, Designer and Website Developer Freelancer based in Indonesia.
+                            I&apos;m a Editor, Designer and Website Developer or Freelancer based in Indonesia.
                         </p>
                     </div>
                     <div className="flex justify-center items-center pt-0">
