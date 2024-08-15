@@ -5,6 +5,9 @@ import { gridItems } from '@/data'
 const Grid = () => {
     return (
         <section id="about">
+            <h1 className="heading">
+                My <span className="bg-gradient-to-bl from-blue-500 to-pink-500 bg-clip-text text-transparent font-extrabold">Summary</span>
+            </h1>
             <BentoGrid className="w-full py-20">
                 {gridItems.map((item, i) => (
                     <BentoGridItem
