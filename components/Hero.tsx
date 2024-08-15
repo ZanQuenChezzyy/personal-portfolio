@@ -52,7 +52,7 @@ const Hero = () => {
                 <div className="flex justify-center items-center max-w-[89vw]">
                     <a href="#about">
                         <MagicButton
-                            title="Show my work"
+                            title="Show my summary"
                             icon={<FaLocationArrow />}
                             position="right"
                         />
