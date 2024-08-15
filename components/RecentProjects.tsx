@@ -21,7 +21,7 @@ const RecentProjects = () => {
                             key={item.id}
                         >
                             <PinContainer
-                                title="MyProject"
+                                title={item.title}
                                 href={item.link}
                             >
                                 {item.link && item.link !== "/" ? (
