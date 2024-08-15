@@ -4,7 +4,7 @@ import { gridItems } from '@/data'
 
 const Grid = () => {
     return (
-        <section id="about">
+        <section id="summary">
             <h1 className="heading">
                 My <span className="bg-gradient-to-bl from-blue-500 to-pink-500 bg-clip-text text-transparent font-extrabold">Summary</span>
             </h1>
