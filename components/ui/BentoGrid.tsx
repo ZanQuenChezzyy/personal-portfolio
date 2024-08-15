@@ -50,8 +50,8 @@ export const BentoGridItem = ({
     titleClassName?: string;
     spareImg?: string;
 }) => {
-    const leftLists = ["ReactJS", "Express", "Typescript"];
-    const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+    const leftLists = ["Microsoft Office", "Adobe Suite", "VS Code"];
+    const rightLists = ["Laravel", "NextJS", "JavaScript"];
 
     const [copied, setCopied] = useState(false);
 
@@ -65,7 +65,7 @@ export const BentoGridItem = ({
     };
 
     const handleCopy = () => {
-        const text = "hsu@jsmastery.pro";
+        const text = "andereyan@gmail.com";
         navigator.clipboard.writeText(text);
         setCopied(true);
     };
@@ -94,7 +94,7 @@ export const BentoGridItem = ({
                             alt={img}
                             width={50}
                             height={50}
-                            className={cn(imgClassName, "object-cover object-center ")}
+                            className={cn(imgClassName, "object-cover object-center")}
                         />
                     )}
                 </div>
@@ -108,7 +108,7 @@ export const BentoGridItem = ({
                             alt={spareImg}
                             width={220}
                             height={220}
-                            className="object-cover object-center w-full h-full"
+                            className="object-cover object-center w-full h-full opacity-30"
                         />
                     )}
                 </div>
@@ -180,7 +180,7 @@ export const BentoGridItem = ({
                                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                                     }`}
                             >
-                                {/* <img src="/confetti.gif" alt="confetti" /> */}
+                                {/* <img src="/confetti.gif" alt="confetti" width={400} height={200} /> */}
                                 <Lottie options={defaultOptions} height={200} width={400} />
                             </div>
 
