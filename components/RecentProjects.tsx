@@ -11,8 +11,8 @@ const RecentProjects = () => {
         <section id="projects">
             <div className="py-20">
                 <h1 className="heading">
-                    A small selection of{" "}
-                    <span className="text-purple">recent projects</span>
+                    My{" "}
+                    <span className="bg-gradient-to-bl from-blue-500 to-pink-500 bg-clip-text text-transparent">Recent Projects</span>
                 </h1>
                 <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
                     {projects.map((item) => (
@@ -33,15 +33,15 @@ const RecentProjects = () => {
                                             >
                                                 <Image
                                                     src="/bg.png"
-                                                    width={2000}
-                                                    height={2000}
+                                                    width={500}
+                                                    height={500}
                                                     alt="bgimg"
                                                 />
                                             </div>
                                             <Image
                                                 src={item.img}
-                                                width={2000}
-                                                height={2000}
+                                                width={500}
+                                                height={500}
                                                 alt="cover"
                                                 className="z-10 absolute bottom-0"
                                             />
@@ -70,16 +70,16 @@ const RecentProjects = () => {
                                             >
                                                 <Image
                                                     src="/bg.png"
-                                                    width={2000}
-                                                    height={2000}
+                                                    width={500}
+                                                    height={500}
                                                     alt="bgimg"
                                                 />
                                             </div>
                                             <Image
                                                 src={item.img}
                                                 alt="cover"
-                                                width={2000}
-                                                height={2000}
+                                                width={500}
+                                                height={500}
                                                 className="z-10 absolute bottom-0"
                                             />
                                         </div>
@@ -113,8 +113,8 @@ const RecentProjects = () => {
                                                 <Image
                                                     src={icon}
                                                     alt="icon5"
-                                                    width={2000}
-                                                    height={2000}
+                                                    width={500}
+                                                    height={500}
                                                     className="p-2"
                                                 />
                                             </div>
